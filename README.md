@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="README.css">
+</head>
 <body>
 	<div>
 		<h1>Web development</h1>
@@ -177,4 +183,51 @@
 		</form>
 		</p>
 		<p><strong>*** The actual login page was supposed to be display above but GitHub markup interpreter does not include the &ltform&gt tag in its list.</strong></p>
+		<h3>CSS (Cascading style sheets</h3>
+		<p><strong>Cascading Style Sheets (CSS)</strong> is a stylesheet language used to describe the presentation of a document written in HTML or XML</p>
+		<h4>CSS Colors</h4>
+		<p>You have 3 ways to including colors through CSS on your html page but first, lets talk about the basic syntax of CSS</p>
+		<p align="center"><strong>
+			selector {<br>
+			property: value;<br>
+			property: value;<br>
+		}
+		</strong></p>
+		<p>You also have different ways to specifying the colors used in CSS. The 3  most common ways are shown below: </p>
+		<ul>
+			<li><strong>Inbuilt color names</strong></li>
+			<li><strong>Use of hexadecimal values</strong></li>
+			<li><strong>Use of RGB</strong></li>
+		</ul>
+		<h3>CSS Selectors</h3>
+		<p>CSS selectors define the elements to which a set of CSS rules apply.</p>
+		<span>Here is a list of selectors</span>
+		<ol>
+			<li><em>Universal Selector</em></li>
+				<ul>
+					<li><p>Selects all elements. <strong>Syntax: </strong> *</p></li>
+				</ul>
+			<li><em>Class Selector</em></li>
+				<ul>
+					<li>
+						<p>Selects all elements that have the given class attribute. <strong>Syntax: </strong>.classname</p>
+					</li>
+				</ul>
+			<li><em>ID Selector</em></li>
+				<ul>
+					<li><p>Selects an element based on its value of its <em>id</em> attribute. <strong>Syntax: </strong> #idname</p></li>
+				</ul>
+			<li><em>Attribute Selector</em></li>
+				<ul>
+					<li>
+						<p>Selects all elements that have the given attribute. <strong>Syntax: </strong>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</p>
+					</li>
+				</ul>
+			<li><em>Type Selector</em></li>
+				<ul>
+					<li><p>Selects all elements that have the given node name. <strong>Syntax: </strong>elementname</p></li>
+				</ul>
+		</ol>
 </body>
+
+</html>
