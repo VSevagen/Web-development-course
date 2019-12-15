@@ -138,24 +138,20 @@
     <p>
 		<h1>Login page</h1>
 		<form>
-
 		<label for="first_name">First Name: </label>
 		<input id="first_name" type="text" placeholder="John" required>
 		<label for="last_name">Last Name: </label>
 		<input id="last_name" type="text" placeholder="Smith" required><br>
-
 		<label>Male</label>
 		<input type="radio" name="Gender" value="male">
 		<label>Female</label>
 		<input type="radio" name="Gender" value="female">
 		<label>Others</label>
 		<input type="radio" name="Gender" value="others"><br>
-
 		<label>Email:</label>
 		<input type="Email" placeholder="your email" required>
 		<label>Password: </label>
-		<input type="password" minlength="5" maxlength="10" required><br>
-
+		<input type="password" pattern=".{5,10}" required title="5 to 10 characters"><br>
 		<label>Birthday: </label>
 		<select>
 			<option>Month</option>
@@ -180,7 +176,5 @@
 		<button>Submit</button>
 		</form>
 		</p>
-
-
-
+		<p><strong>*** The actual login page was supposed to be display above but GitHub markup interpreter does not include the &ltform&gt tag in its list.</strong></p>
 </body>
