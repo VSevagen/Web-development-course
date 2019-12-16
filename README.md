@@ -232,11 +232,30 @@
 		<p>The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.</p>
 		<ul>
 			<li><em>font-size</em></li>
+			<ul>
+				<li>The font-size CSS property sets the size of the font. This property is also used to compute the size of em, ex, and other relative &ltlength&gt units.</li>
+			</ul>
 			<li><em>font-family</em></li>
+			<ul>
+				<li>The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.</li>
+			</ul>
 			<li><em>line-height</em></li>
+			<ul>
+				<li>The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.</li>
+			</ul>
 			<li><em>font-weight</em></li>
+			<ul>
+				<li>The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family you are using.</li>
+			</ul>
 			<li><em>text-decoration</em></li>
+			<ul>
+				<li>The text-decoration attribute defines whether text is decorated with an underline, overline and/or strike-through. </li>
+			</ul>
 			<li><em>text-align</em></li>
+			<ul>
+				<li>The text-align CSS property sets the horizontal alignment of a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.
+</li>
+			</ul>
 		</ul>
 </body>
 
