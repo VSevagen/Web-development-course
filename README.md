@@ -228,6 +228,16 @@
 					<li><p>Selects all elements that have the given node name. <strong>Syntax: </strong>elementname</p></li>
 				</ul>
 		</ol>
+		<h3>Font styles - CSS</h3>
+		<p>The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.</p>
+		<ul>
+			<li><em>font-size</em></li>
+			<li><em>font-family</em></li>
+			<li><em>line-height</em></li>
+			<li><em>font-weight</em></li>
+			<li><em>text-decoration</em></li>
+			<li><em>text-align</em></li>
+		</ul>
 </body>
 
 </html>
