@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Some title</title>
+</head>
+<body>
+	<h1>First Gen Pokemon Chart</h1>
+	<table border="1">
+		<th>Image</th>
+		<th>Name</th>
+		<th>Type</th>
+		<th>Evolves into</th>
+		<tr>
+			<td><img width="30"src="https://vignette.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png/revision/latest?cb=20140328190757"></td>
+			<td>Bulbasur</td>
+			<td>Grass/Poison</td>
+			<td><a href="https://www.diveshop.mu">Ivysaur</a></td>
+		</tr>
+		<tr>
+			<td><img width="30" src="https://vignette.wikia.nocookie.net/pokemon/images/7/73/004Charmander.png/revision/latest?cb=20140724195345"></td>
+			<td>Charmander</td>
+			<td>Fire</td>
+			<td><a href="https://www.diveshop.mu">Charmeleon</a></td>
+		</tr>
+		<tr>
+			<td><img width="30" src="https://vignette.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png/revision/latest?cb=20140328191525"></td>
+			<td>Squitle</td>
+			<td>Water</td>
+			<td><a href="https://www.diveshop.mu">Wartotle</a></td>
+		</tr>
+	</table>
+
+	<h1>Register</h1>
+
+	<form action="htps://www.wikipedia.org">
+		<!-- First Name -->
+		<label for="" ="1stName">First Name: </label>
+		<input name="First" type="text" id="1stName" placeholder="First Name" required>
+
+		<!-- Last Name -->
+		<label for="2ndName">Last Name: </label>
+		<input name="last" type="text" id="2ndName" placeholder="Last Name" required>
+		<br>
+
+		<!-- Gender choice -->
+		<label for="Male">Male: </label>
+		<input name="Gender" type="radio" id="Male" value="Male">
+
+		<label for="Female">Female: </label>
+		<input name="Gender" type="radio" id="Female" value="Female">
+
+		<label for="Others">Others: </label>
+		<input name="Gender" type="radio" id="Others" value="Others">
+		<br>
+
+		<!-- Email and Password -->
+		<label for="email">Email: </label>
+		<input  id="email" type="email" required placeholder="Email">
+
+		<label for="password">Password: </label>
+		<input id="password" type="password" required placeholder="Password" pattern=".{5,10}" title="5 to 10 characters">
+		<br>
+
+		<label for="birthday">Birthday: </label>
+		<select name="Month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>Jun</option>
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option>01</option>
+			<option>02</option>
+			<option>03</option>
+			<option>04</option>
+			<option>05</option>
+		</select>
+
+		<select name="Year">
+			<option>Year</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+		</select>
+		<br>
+
+		<span>I agree to the terms and conditions</span>
+		<input type="checkbox" name="terms">
+		<br>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
