@@ -1,0 +1,36 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/6e/0a/a8/6e0aa806890ba81f4675c4e6ce69f105.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+html {
+	height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #919494;
+}
+
+.navbar-light .navbar-brand {
+	color: #919494;
+}
+
+.pink {
+	border: 2px solid black;
+}
+
+.jumbo {
+	width: 40%;
+	background: none;
+	font-family: 'Spicy Rice', cursive;
+	text-align: center;
+	color: white;
+	margin-top: 12.5%;
+	text-shadow: 1px 2px 3px black;
+
+}
+hr {
+	border-top: 1px solid #f8f9fa;}
+}
